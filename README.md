@@ -4,7 +4,7 @@
 
 In this lab assessment, you'll practice your knowledge of `JOIN` statements and subqueries, using various types of joins and various methods for specifying the links between them. One of the main benefits of using a relational database is the table relations that define them which allow you to access and connect data together via shared columns. By writing more advanced SQL queries that utilize joins and subqueries you can provide a deeper and more granular level of analysis and data retrieval.
 
-This assessment will continue looking at the familiar Northwind database that contains customer relationship management (CRM) data as well as employee and product data. You will take a deeper dive into this database in order to accomplish more advanced SQL queries that require you to access data from multiple tables at once. 
+This assessment will continue looking at the familiar Northwind database that contains customer relationship management (CRM) data as well as employee and product data. You will take a deeper dive into this database in order to accomplish more advanced SQL queries that require you to access data from multiple tables at once.
 
 Imagine that you are working in a programming role for the sales rep team. They have collaborated with the customer relations and the product teams to take a comprehensive look at the employee to customer pipeline in an attempt to find areas of improvement and potential growth. You have been asked to provide some specific data and statistics regarding this project.
 
@@ -12,9 +12,9 @@ Imagine that you are working in a programming role for the sales rep team. They 
 
 You will be able to:
 
-* Write SQL queries that make use of various types of joins
-* Choose and perform whichever type of join is best for retrieving desired data
-* Write subqueries to decompose complex queries
+- Write SQL queries that make use of various types of joins
+- Choose and perform whichever type of join is best for retrieving desired data
+- Write subqueries to decompose complex queries
 
 ## Database
 
@@ -24,10 +24,10 @@ The database will be the customer relationship management (CRM) database, which 
 
 ## Set Up
 
-* Fork and Clone the GitHub Repo
-* Install dependencies and enter the virtual environment:
-    * `pipenv install`
-    * `pipenv shell`
+- Fork and Clone the GitHub Repo
+- Install dependencies and enter the virtual environment:
+  - `pipenv install`
+  - `pipenv shell`
 
 All your code will be in `main.py`. You can add any print statements needed to check your code and run the file with `python3 main.py`. Your lab will be graded using a test suite that you can also use to check your work as you go by running `pytest` or `pytest -x`.
 
@@ -136,7 +136,7 @@ df_product_sold = None
 
 ### Step 8
 
-As a follow-up to the above question, the product team also wants to know how many different customers ordered each product to get an idea of market reach. Return the product name, code, and the total number of customers who have ordered each product, aliased as 'numpurchasers'. Sort the results by the highest  number of purchasers.
+As a follow-up to the above question, the product team also wants to know how many different customers ordered each product to get an idea of market reach. Return the product name, code, and the total number of customers who have ordered each product, aliased as 'numpurchasers'. Sort the results by the highest number of purchasers.
 
 Hint: You might need to join more than 2 tables. Use DISTINCT to return unique/different values.
 
